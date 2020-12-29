@@ -1,0 +1,1 @@
+cmd_/home/abelardojara/workspace/de10_pro_driver/aclpci_de10_pro_drv.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/abelardojara/workspace/de10_pro_driver/aclpci_de10_pro_drv.ko /home/abelardojara/workspace/de10_pro_driver/aclpci_de10_pro_drv.o /home/abelardojara/workspace/de10_pro_driver/aclpci_de10_pro_drv.mod.o;  true
